@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".Fragments.CallFragment">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_location"
+        android:textSize="15sp"
+        android:textColor="#D10108"
+        android:paddingStart="8dp"
+        android:layout_marginBottom="20dp"
+        android:drawablePadding="15dp"
+        android:text="غزة - الرمال - مفترق مسجد الكنز"
+        android:background="@drawable/border_btn"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="info@eyetech.ps"
+        android:textSize="15sp"
+        android:textAllCaps="false"
+        android:drawablePadding="20dp"
+        android:paddingStart="10dp"
+        android:textColor="#D10108"
+        android:layout_marginBottom="20dp"
+        android:drawableStart="@drawable/ic_email"
+        android:background="@drawable/border_btn"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="08-2884100"
+        android:textColor="#D10108"
+        android:paddingStart="8dp"
+        android:drawablePadding="15dp"
+        android:drawableStart="@drawable/ic_tel"
+        android:background="@drawable/border_btn"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="+970599331080"
+        android:paddingStart="6dp"
+        android:textColor="#D10108"
+        android:drawablePadding="8dp"
+        android:drawableStart="@drawable/ic_mobile"
+        android:background="@drawable/border_btn"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="+970597331080"
+        android:paddingStart="6dp"
+        android:textColor="#D10108"
+        android:drawablePadding="8dp"
+        android:drawableStart="@drawable/ic_mobile"
+        android:background="@drawable/border_btn"
+        />
+
+
+
+</LinearLayout>

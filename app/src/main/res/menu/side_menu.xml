@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/main"
+        android:icon="@drawable/ic_home"
+        android:title="الرئيسية"
+        />
+
+    <item
+        android:id="@+id/services"
+        android:icon="@drawable/ic_setting"
+        android:title="خدماتنا" />
+
+    <item
+        android:id="@+id/categories"
+        android:icon="@drawable/ic_categories"
+        android:title="الأصناف" />
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_about"
+        android:title="من نحن" />
+
+    <item
+        android:id="@+id/customers"
+        android:icon="@drawable/ic_group"
+        android:title="عملاؤنا" />
+
+    <item
+        android:id="@+id/call"
+        android:icon="@drawable/ic_call"
+        android:title="اتصل بنا" />
+
+    <item
+        android:id="@+id/works"
+        android:icon="@drawable/ic_images"
+        android:title="أعمالنا في صور" />
+
+    <item
+        android:id="@+id/admin"
+        android:icon="@drawable/ic_admin"
+        android:title="المشرف"/>
+
+    </group>
+
+</menu>

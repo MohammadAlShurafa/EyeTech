@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="45dp"
+    tools:context=".Fragments.AboutFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="عن الشركة"
+                android:background="@drawable/title_border"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="#FFF"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="7dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/jannat_bold"
+                android:lineSpacingExtra="5dp"
+                android:paddingBottom="7dp"
+
+                android:text="تأسست شركة EyeTech عن خبرة تناهز 18 سنة بغرض تلبية احتياجات السوق المحلي لأنظمة تكنولوجيا المعلومات والإتصالات. اليوم تعمل الشركة على تقديم مجموعة واسعة من الحلول و الخدمات في مجالات متعددة تشمل انظمة الاتصالات السلكية و اللاسلكية و أنظمة الاتصال المرئي (Video Conference) وشبكات الكمبيوتر وغرف السيرفر. تركز الشركة جهودها لتوفير أحدث ما توصلت إليه تكنولوجيا المعلومات و الاتصالات عن طريق تقديم مجموعة من الحلول التقنية وفق المعايير الدولية. منذ أن بدأنا و نحن نسعى الى  بناء فريق عمل لترسيخ معايير تضمن لنا تحقيق أعلى مستوى من الكفاءة والامانة في العمل." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="رؤيتنا"
+                android:background="@drawable/title_border"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="#FFF"/>
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="7dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/jannat_bold"
+                android:lineSpacingExtra="5dp"
+                android:paddingBottom="7dp"
+                android:text="تسعى عين التكنولوجيا لتكون الرائدة في تقديم الخدمات والحلول الأكثر فعالية وكفاءة في عالم أنظمة المعلومات والاتصالات في فلسطين عن طريق إنشاء وتعزيز العلاقات التجارية مع جميع عملائها من الشركات والمؤسسات في القطاعين الحكومي والخاص." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="مهمتنا"
+                android:background="@drawable/title_border"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="#FFF"/>
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="7dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/jannat_bold"
+                android:lineSpacingExtra="5dp"
+                android:paddingBottom="7dp"
+                android:text="أن نكون الخيار الأفضل في تلبية احتياجات السوق المحلي لكل ما يلزم من أنظمة وخدمات تكنولوجيا المعلومات والاتصالات وذلك بالاعتماد على خبرتنا في تصميم وتطوير أفضل الحلول بهدف تلبية الاحتياجات الخاصة لجميع عملائنا." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="فريق الدعم الفني"
+                android:background="@drawable/title_border"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="#FFF"/>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="7dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/jannat_bold"
+                android:lineSpacingExtra="5dp"
+                android:paddingBottom="7dp"
+                android:text="حرصاً على تلبية وإرضاء جميع احتياجات عملائنا قامت الشركة بتسخير جزء من مواردها في اعداد و تدريب فريق من المهندسين والمختصين للرد على جميع الاستفسارات و ايجاد الحلول المناسبة  بالاضافة الى المتابعة الكاملة خلال أعمال الصيانة. توفر الشركة خدمة الدعم الفني والتي تهدف الى تقديم النصائح  الفنية وصيانة الأعطال المتعلقة بتقنية تكنولوجيا المعلومات وادارة شبكات الكمبيوتر وأنظمة الطاقة الكهربائية (UPS)." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="مقومات الشركة – مبادؤنا"
+                android:background="@drawable/title_border"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="#FFF"/>
+
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="7dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/jannat_bold"
+                android:lineSpacingExtra="5dp"
+                android:text="التزامنا بتقديم أعلى درجات الجودة يجعلنا حريصين على توفير أفضل الكوادر المؤهلة والمدربة خصيصا للتعامل مع جميع متطلبات عملائنا." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="7dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/jannat_bold"
+                android:lineSpacingExtra="5dp"
+                android:text="إيماناً منا بضرورة التعامل مع متغيرات السوق تعتمد الشركة على الإستعانة بمستشارين متخصصين لتطبيق كل ما هو حديث لتحسين أدء العمل." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="7dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/jannat_bold"
+                android:lineSpacingExtra="5dp"
+                android:text="تعتمد الشركة في نجاحها على الإلتزام الصارم بتقديم أعلى مستوى من الكفاءة والمصداقية في العمل حيث حازت على تقدير العديد من الشركات و المؤسسات الحكومية والتجارية و الدولية." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="7dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/jannat_bold"
+                android:lineSpacingExtra="5dp"
+                android:paddingBottom="10dp"
+                android:text="فريق الخدمة على إستعداد تام للتجاوب مع جميع احتياجات العملاء و تلبية جميع الطلبات في أقصى سرعة ممكنة." />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
